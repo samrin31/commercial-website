@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyBloom | Stationery & Study Essentials</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ANNOUNCEMENT BAR -->
+    <div class="announcement">
+        ✿ A little happiness in every order · Free shipping above ₹999 ✿
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Study<span>Bloom.</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">Our Story</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#account" class="account">My Account ♡</a>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="small-title">✿ YOUR HAPPY LITTLE CORNER ✿</p>
+
+            <h1>Make every day<br>
+                a little more <span>beautiful.</span>
+            </h1>
+
+            <p class="description">
+                Pretty stationery, thoughtful essentials
+                and little things that make studying
+                feel like a dream.
+            </p>
+
+            <a href="#shop" class="shop-btn">Explore Collection →</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900"
+                 alt="Aesthetic study desk">
+        </div>
+
+    </section>
+
+    <!-- CATEGORIES -->
+    <section id="categories" class="categories">
+
+        <p class="small-title">FIND YOUR FAVOURITES</p>
+        <h2>Shop by Category</h2>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500"
+                     alt="Notebooks">
+                <h3>Notebooks</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500"
+                     alt="Pens">
+                <h3>Study Essentials</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=500"
+                     alt="Books">
+                <h3>Books & Journals</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="shop" class="products">
+
+        <p class="small-title">HANDPICKED WITH LOVE</p>
+        <h2>Our Little Collection</h2>
+
+        <div class="product-container">
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500"
+                     alt="Notebook">
+                <h3>Pastel Dream Notebook</h3>
+                <p>₹299</p>
+                <button onclick="addToCart('Pastel Dream Notebook')">
+                    Add to Cart ♡
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=500"
+                     alt="Journal">
+                <h3>Daily Journal</h3>
+                <p>₹399</p>
+                <button onclick="addToCart('Daily Journal')">
+                    Add to Cart ♡
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?w=500"
+                     alt="Planner">
+                <h3>Pretty Study Planner</h3>
+                <p>₹349</p>
+                <button onclick="addToCart('Pretty Study Planner')">
+                    Add to Cart ♡
+                </button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=500"
+                     alt="Books">
+                <h3>Reading Journal</h3>
+                <p>₹449</p>
+                <button onclick="addToCart('Reading Journal')">
+                    Add to Cart ♡
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SPECIAL BANNER -->
+    <section class="offer">
+        <p>✿ A LITTLE TREAT FOR YOU ✿</p>
+        <h2>Make room for more creativity.</h2>
+        <p>Discover your next favourite study essential.</p>
+        <a href="#shop">Shop Now →</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+
+        <div>
+            <p class="small-title">A NOTE FROM US</p>
+            <h2>Made for the love of little things.</h2>
+        </div>
+
+        <p>
+            StudyBloom is a happy little space for stationery lovers.
+            We believe that beautiful notebooks, lovely pens and
+            thoughtful study essentials can make everyday moments
+            feel special. Let's make learning a little more lovely!
+        </p>
+
+    </section>
+
+    <!-- CUSTOMER REVIEWS -->
+    <section class="reviews">
+
+        <p class="small-title">KIND WORDS</p>
+        <h2>Little notes from our customers</h2>
+
+        <div class="review-container">
+
+            <div class="review-card">
+                <p>"Everything is so pretty! Loved my order."</p>
+                <h4>— Happy Customer ♡</h4>
+            </div>
+
+            <div class="review-card">
+                <p>"My study desk feels so much more special."</p>
+                <h4>— Stationery Lover ♡</h4>
+            </div>
+
+            <div class="review-card">
+                <p>"Beautiful products and lovely collection."</p>
+                <h4>— Book Lover ♡</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ACCOUNT -->
+    <section id="account" class="account-section">
+
+        <p class="small-title">JOIN OUR LITTLE WORLD</p>
+        <h2>Create Your Account ♡</h2>
+
+        <form onsubmit="createAccount(event)">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="password" placeholder="Create Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+        <h2>Let's stay in touch!</h2>
+
+        <p>Email: hello@studybloom.com</p>
+        <p>Location: Chennai, Tamil Nadu</p>
+        <p>We'd love to hear from you ♡</p>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h2>Study<span>Bloom.</span></h2>
+
+        <p>Making everyday a little more beautiful ✿</p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.pinterest.com/">Pinterest</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 StudyBloom. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
